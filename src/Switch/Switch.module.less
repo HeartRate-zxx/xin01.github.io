@@ -1,0 +1,38 @@
+.switch {
+    border-radius: 15px;
+    align-items: center;
+    transition: all 0.3s ;
+    padding: 1px;
+    position: relative;
+    .ball {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 2px;
+        transition: all 0.3s ;
+        pointer-events: none;
+        
+    } 
+  
+}
+.switch::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.off{
+    margin-left: 10px;
+}
+.offblue{
+    color: rgb(64, 158, 255);
+    margin-left: 10px;
+}
+.open{
+    margin-right: 10px;
+}
+.openblue{
+    color: rgb(64, 158, 255);
+    margin-right: 10px;
+}

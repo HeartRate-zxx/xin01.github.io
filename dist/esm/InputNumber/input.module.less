@@ -1,0 +1,76 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+.disabled {
+        cursor: not-allowed;
+}
+button{
+        border: none;
+}
+
+.inputNumber {
+        position: relative;
+        display: inline-block;
+        width: 180px;
+        line-height: 38px;
+        border: 1px solid #d0c1c1;
+        border-radius: 3px;
+
+        .add {
+                font-size: 24px;
+                position: absolute;
+                z-index: 10;
+                width: 40px;
+                height: 100%;
+                text-align: center;
+                background:#e6edf8;
+                cursor: pointer;
+                right: 0px;
+                // color: #606266;
+                border-left: 1px solid #d0c1c1;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+
+
+        }
+
+        .del {
+                position: absolute;
+                z-index: 10;
+                width: 40px;
+                height: 100%;
+                text-align: center;
+                background: #e6edf8;
+                cursor: pointer;
+                font-size: 24px;
+                left: 0px;
+                // color: #606266;
+                border-right: 1px solid #d0c1c1;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+
+        }
+
+        input {
+                -webkit-appearance: none;
+                padding-left: 50px;
+                padding-right: 50px;
+                text-align: center;
+                background-color: var(--el-input-background-color,var(--el-color-white));
+                background-image: none;
+                border-radius: var(--el-input-border-radius,var(--el-border-radius-base));
+                border: var(--el-input-border,var(--el-border-base));
+                box-sizing: border-box;
+                color: var(--el-input-font-color,var(--el-text-color-regular));
+                display: inline-block;
+                font-size: inherit;
+                height: 40px;
+                line-height: 40px;
+                outline: none;
+                padding: 0 15px;
+                transition: var(--el-transition-border);
+                width: 100%;
+        }
+
+}
